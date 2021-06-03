@@ -102,7 +102,7 @@
                     
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="count-item decoration-top">
-                            <strong>63</strong>
+                            <strong>159</strong>
                             <span>Happy Clients</span>
                         </div>
                     </div>
@@ -188,17 +188,6 @@
             <!-- ***** Section Title End ***** -->
 
             <div class="row">
-                <!-- ***** loging Text Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <h5 class="margin-bottom-30">Register</h5>
-                    <div class="contact-text">
-                        <p>If you are not yet a customer, register for free
-                        <br><br> <a href="#register" class="main-button">Register</a></p>
-                        
-                    </div>
-                </div>
-                <!-- ***** login Text End ***** -->
-
                 <!-- ***** login Form Start ***** -->
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <div class="contact-form">
@@ -244,7 +233,8 @@
                         <p>Register to access the client system</p>
                     </div>
                 </div>
-            </div>
+            </div> 
+            
             <!-- ***** Section Title End ***** -->
 
             <div class="row">
