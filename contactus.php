@@ -59,6 +59,7 @@
                             <li><a href="index.php" >Home</a></li>
                             <li><a href="forhim.php">For Him</a></li>
                             <li><a href="forher.php">For Her</a></li>
+                            <li><a href="https://www.instagram.com/divine_beauty_nz/">Gallery</a></li>
                             <li><a href="contactus.php" class="active">Contact Us</a></li>
                             <?php if(isset($_SESSION['user']) == true){ ?>
                                 <li>
@@ -108,6 +109,7 @@
                     <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
                         <h1>We believe in inner <strong> BEAUTY </strong> but do what you can on the outside. </h1>
                         <p> We believe the customer is always right, but you have to tell us what you are right about. <strong> COMMUNICATE </strong> We believe in <strong> CLEANLINESS </strong> and hygiene, but also clean minds that hold kindness and positive for ourselves. We believe in <strong> CARE </strong> for other, but it all starts with the care we had given to ourselves first.</p>
+                        <a href="#login" class="main-button-slider">Discover More</a>
                     </div>
                 </div>
             </div>
