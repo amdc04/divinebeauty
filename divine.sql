@@ -66,14 +66,14 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `user`
+-- Data dump for table `user`
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `passw`) VALUES
 (3, 'administrator', 'admin@admin.com', '12345');
 
 --
--- Indexes for tables volcadas
+-- Indexes for tables overturned
 --
 
 --
