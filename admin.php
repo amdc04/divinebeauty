@@ -21,7 +21,7 @@
         <meta name="author" content="">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-        <title>User Home - Divine BRAUTY</title>
+        <title>User Home - Divine BEAUTY</title>
     <!--
 
     -->

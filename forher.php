@@ -18,7 +18,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>For-Her, Divine - BRAUTY</title>
+    <title>For-Her, Divine - Beauty</title>
 <!--
 
 -->
@@ -53,7 +53,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="#" class="logo"></a>
-                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Logo End ***** -->           
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="index.php" >Home</a></li>

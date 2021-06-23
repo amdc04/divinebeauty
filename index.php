@@ -20,7 +20,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>Divine - BRAUTY</title>
+    <title>Divine - Beauty</title>
 <!--
 
 -->
@@ -131,7 +131,7 @@
             </div>
             <!-- ***** Section Title End ***** -->
 
-            <div class="row">
+            <div class="row justify-content-md-center">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post-thumb">
                         <div class="img">
@@ -169,8 +169,8 @@
     </section>
     <!-- ***** Blog End ***** -->
 
-    <!-- ***** login  Start ***** -->
-    <section class="section colored" id="login">
+     <!-- ***** login  Start ***** -->
+     <section class="section colored" id="login">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
             <div class="row">
@@ -188,6 +188,17 @@
             <!-- ***** Section Title End ***** -->
 
             <div class="row">
+                <!-- ***** loging Text Start ***** -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h5 class="margin-bottom-30">Register</h5>
+                    <div class="contact-text">
+                        <p>If you are not yet a customer, register for free
+                        <br><br> <a href="#register" class="main-button">Register</a></p>
+                        
+                    </div>
+                </div>
+                <!-- ***** login Text End ***** -->
+
                 <!-- ***** login Form Start ***** -->
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <div class="contact-form">
@@ -233,8 +244,7 @@
                         <p>Register to access the client system</p>
                     </div>
                 </div>
-            </div> 
-            
+            </div>
             <!-- ***** Section Title End ***** -->
 
             <div class="row">

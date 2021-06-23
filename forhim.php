@@ -19,7 +19,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>For-Him, Divine - BRAUTY</title>
+    <title>For-Him, Divine - Beauty</title>
 <!--
 
 -->
@@ -122,7 +122,7 @@
     <section class="section colored" id="pricing-plans">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
-            <div class="row">
+            <div class="row ">
                 <div class="col-lg-12">
                     <div class="center-heading">
                         <h2 class="section-title">OUR SPECIAL SERVICES</h2>
@@ -136,7 +136,7 @@
             </div>
             <!-- ***** Section Title End ***** -->
 
-            <div class="row">
+            <div class="row justify-content-md-center">
                 <!-- ***** Pricing Item Start ***** -->
                 <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                     <div class="pricing-item">
@@ -179,7 +179,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="copyright">Copyright &copy; Divine - Brauty © 2021. All right reserved.</p>
+                    <p class="copyright">Copyright &copy; Divine - Beauty © 2021. All right reserved.</p>
                 </div>
             </div>
         </div>

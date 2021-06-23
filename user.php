@@ -22,7 +22,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>User Home - Divine BRAUTY</title>
+    <title>User Home - Divine Beauty</title>
 <!--
 
 -->
@@ -272,7 +272,7 @@ Reservations in Process</h1>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="copyright">Copyright &copy; Divine - Brauty © 2021. All right reserved.</p>
+                    <p class="copyright">Copyright &copy; Divine - Beauty © 2021. All right reserved.</p>
                 </div>
             </div>
         </div>
