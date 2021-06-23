@@ -8,7 +8,7 @@ reset
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
+figure, header, nav, section, article, aside, footer, figcaption { 
   margin: 0;
   padding: 0;
   border: 0;
@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 ul {
   margin-bottom: 0px;
 }
+
 
 /* 
 ---------------------------------------------
@@ -316,7 +317,7 @@ a.main-button {
 
 a.main-button:hover {
   background-color: #ff589e;
-}
+}x
 
 button.main-button {
   outline: none;
@@ -339,8 +340,19 @@ button.main-button {
 button.main-button:hover {
   background-color: #ff589e;
 }
-
-
+ table * {
+   font-size: 1.25em;
+ }
+table {
+  margin:auto;
+  margin-bottom: 45px;
+  margin-top: 60px;
+}
+input {display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
 /* 
 ---------------------------------------------
 header
@@ -1163,8 +1175,9 @@ team
   letter-spacing: 0.6px;
   line-height: 26px;
 }
-
 /* 
+
+
 ---------------------------------------------
 pricing
 --------------------------------------------- 
@@ -1401,6 +1414,7 @@ contact
   -moz-appearance: none;
   appearance: none;
   margin-bottom: 30px;
+
 }
 
 .contact-form textarea {
