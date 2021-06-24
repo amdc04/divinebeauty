@@ -56,7 +56,7 @@
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
                             <a href="#" class="logo">
-                                <img src="assets/images/logo.png" alt="Softy Pinko"/>
+                        
                             </a>
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
