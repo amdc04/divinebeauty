@@ -18,7 +18,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>For-Her, Divine - Beauty</title>
+    <title>For-Her, Divine - BRAUTY</title>
 <!--
 
 -->
@@ -52,8 +52,10 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo"></a>
-                        <!-- ***** Logo End ***** -->           
+                        <a href="#" class="logo">
+                            <img src="assets/images/logo.png" alt="Softy Pinko"/>
+                        </a>
+                        <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="index.php" >Home</a></li>
@@ -220,7 +222,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="copyright">Copyright &copy; Divine - Beauty © 2021. All right reserved.</p>
+                    <p class="copyright">Copyright &copy; Divine - Brauty © 2021. All right reserved.</p>
                 </div>
             </div>
         </div>

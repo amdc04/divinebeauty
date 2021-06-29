@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for the table `bussines`
+-- Estructura de tabla para la tabla `bussines`
 --
 
 CREATE TABLE `bussines` (
@@ -39,7 +39,7 @@ CREATE TABLE `bussines` (
 -- --------------------------------------------------------
 
 --
--- Table structure for the table `contactus`
+-- Estructura de tabla para la tabla `contactus`
 --
 
 CREATE TABLE `contactus` (
@@ -54,8 +54,7 @@ CREATE TABLE `contactus` (
 -- --------------------------------------------------------
 
 --
--- Table structure for the table
- `user`
+-- Estructura de tabla para la tabla `user`
 --
 
 CREATE TABLE `user` (
@@ -66,52 +65,52 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Data dump for table `user`
+-- Volcado de datos para la tabla `user`
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `passw`) VALUES
 (3, 'administrator', 'admin@admin.com', '12345');
 
 --
--- Indexes for tables overturned
+-- Índices para tablas volcadas
 --
 
 --
--- Indexes for tables `bussines`
+-- Indices de la tabla `bussines`
 --
 ALTER TABLE `bussines`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for tables `contactus`
+-- Indices de la tabla `contactus`
 --
 ALTER TABLE `contactus`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for tables `user`
+-- Indices de la tabla `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT of the overturned tables
+-- AUTO_INCREMENT de las tablas volcadas
 --
 
 --
--- AUTO_INCREMENT from the table `bussines`
+-- AUTO_INCREMENT de la tabla `bussines`
 --
 ALTER TABLE `bussines`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
--- AUTO_INCREMENT from the table\ `contactus`
+-- AUTO_INCREMENT de la tabla `contactus`
 --
 ALTER TABLE `contactus`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT from the table `user`
+-- AUTO_INCREMENT de la tabla `user`
 --
 ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;

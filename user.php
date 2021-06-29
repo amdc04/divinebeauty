@@ -22,7 +22,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>User Home - Divine Beauty</title>
+    <title>User Home - Divine BRAUTY</title>
 <!--
 
 -->
@@ -56,7 +56,9 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo"></a>
+                        <a href="#" class="logo">
+                            <img src="assets/images/logo.png" alt="Softy Pinko"/>
+                        </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
@@ -272,7 +274,7 @@ Reservations in Process</h1>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="copyright">Copyright &copy; Divine - Beauty © 2021. All right reserved.</p>
+                    <p class="copyright">Copyright &copy; Divine - Brauty © 2021. All right reserved.</p>
                 </div>
             </div>
         </div>
