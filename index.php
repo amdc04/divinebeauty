@@ -133,7 +133,7 @@
             </div>
             <!-- ***** Section Title End ***** -->
 
-            <div class="row">
+            <div class="row justify-content-md-center">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post-thumb">
                         <div class="img">
@@ -189,19 +189,8 @@
             </div>
             <!-- ***** Section Title End ***** -->
 
-            <div class="row">
-                <!-- ***** loging Text Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <h5 class="margin-bottom-30">Register</h5>
-                    <div class="contact-text">
-                        <p>If you are not yet a customer, register for free
-                        <br><br> <a href="#register" class="main-button">Register</a></p>
-                        
-                    </div>
-                </div>
-                <!-- ***** login Text End ***** -->
-
                 <!-- ***** login Form Start ***** -->
+                <div class="row justify-content-md-center">
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <div class="contact-form">
                         <form id="contact" action="" method="get">
@@ -225,6 +214,7 @@
                         </form>
                     </div>
                 </div>
+        </div>
                 <!-- ***** login Form End ***** -->
             </div>
         </div>
@@ -249,7 +239,7 @@
             </div>
             <!-- ***** Section Title End ***** -->
 
-            <div class="row">
+            <div class="row justify-content-md-center">
                 
                 <!-- ***** register Form Start ***** -->
                 <div class="col-lg-8 col-md-6 col-sm-12">

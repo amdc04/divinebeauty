@@ -137,7 +137,7 @@
             </div>
             <!-- ***** Section Title End ***** -->
 
-            <div class="row">
+            <div class="row justify-content-md-center">
                 <!-- ***** Pricing Item Start ***** -->
                 <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                     <div class="pricing-item active">

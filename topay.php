@@ -117,12 +117,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
-                        <h2 class="section-title">To Pay</h2>
+                        <h2 class="section-title">Reservation</h2>
                     </div>
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="center-text">
-                        <p> Reservation Complet</p>
+                        <p> Fill-up to complete reservation</p>
                     </div>
                 </div>
             </div>
@@ -221,8 +221,8 @@
 <input type="hidden" name="option_select3" value="Manicure or Pedicure - For Her">
 <input type="hidden" name="option_amount3" value="30.00">
 <input type="hidden" name="option_index" value="0">
-<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
-<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+<input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppppcmcvdam.png" alt="Pay with PayPal, PayPal Credit or any major credit card" />
 </form>
 
                 </div>

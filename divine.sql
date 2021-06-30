@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-05-2021 a las 19:07:00
--- Versión del servidor: 10.1.35-MariaDB
--- Versión de PHP: 7.2.9
+-- generation time: 25-05-2021 a las 19:07:00
+-- Server Version: 10.1.35-MariaDB
+-- Version PHP: 7.2.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,13 +19,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `divine`
+--  Database: `Divine`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `bussines`
+-- Table structure for the table `bussines`
 --
 
 CREATE TABLE `bussines` (
@@ -39,7 +39,7 @@ CREATE TABLE `bussines` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `contactus`
+-- Table structure for the table `contactus`
 --
 
 CREATE TABLE `contactus` (
@@ -54,7 +54,7 @@ CREATE TABLE `contactus` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `user`
+-- Table structure for the table `user`
 --
 
 CREATE TABLE `user` (
@@ -65,30 +65,30 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `user`
+-- Data dump for table `user`
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `passw`) VALUES
 (3, 'administrator', 'admin@admin.com', '12345');
 
 --
--- Índices para tablas volcadas
+-- Indexes for overturned tables
 --
 
 --
--- Indices de la tabla `bussines`
+-- Index table `bussines`
 --
 ALTER TABLE `bussines`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indices de la tabla `contactus`
+-- Index table `contactus`
 --
 ALTER TABLE `contactus`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indices de la tabla `user`
+-- Index table `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
@@ -98,19 +98,19 @@ ALTER TABLE `user`
 --
 
 --
--- AUTO_INCREMENT de la tabla `bussines`
+-- AUTO_INCREMENT table `bussines`
 --
 ALTER TABLE `bussines`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
--- AUTO_INCREMENT de la tabla `contactus`
+-- AUTO_INCREMENT table `contactus`
 --
 ALTER TABLE `contactus`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT de la tabla `user`
+-- AUTO_INCREMENT table `user`
 --
 ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;

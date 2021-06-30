@@ -6,7 +6,7 @@
 	$data = true;	
 	$user = $_SESSION['user'];
 
-	mysqli_query($connection,"INSERT INTO bussines (reservation,date,user,cond) VALUES('".$type."','".$date."','".$user."','earring')");
+	mysqli_query($connection,"INSERT INTO bussines (reservation,date,user,cond) VALUES('".$type."','".$date."','".$user."','appointment')");
 	$mensaj = "Reservation = "+$type+" date = "+$date;
 
 	if(mail($user,"New Reservation",$mensaj))
