@@ -7,9 +7,9 @@
 	$user = $_SESSION['user'];
 
 	mysqli_query($connection,"INSERT INTO bussines (reservation,date,user,cond) VALUES('".$type."','".$date."','".$user."','appointment')");
-	$mensaj = "Reservation = "+$type+" date = "+$date;
+	$message = "Reservation = "+$type+" date = "+$date;
 
-	if(mail($user,"New Reservation",$mensaj))
+	if(mail($user,"New Reservation",$message))
 		echo"<script type='text/javascript'>
 	           alert('Message sent');
 	        </script>";
