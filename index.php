@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
     <title>Divine - BRAUTY</title>
-<!--
+    <!--
 
 -->
 
@@ -32,10 +32,10 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    </head>
-    
-    <body>
-    
+</head>
+
+<body>
+
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -43,10 +43,10 @@
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>
     <!-- ***** Preloader End ***** -->
-    
-    
+
+
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
@@ -55,7 +55,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="#" class="logo">
-                            <img src="assets/images/logo.png" alt="Softy Pinko"/>
+                            <img src="assets/images/logo.png" alt="Softy Pinko" />
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -86,7 +86,10 @@
                 <div class="row">
                     <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
                         <h1>We believe in inner <strong> BEAUTY </strong> but do what you can on the outside. </h1>
-                        <p> We believe the customer is always right, but you have to tell us what you are right about. <strong> COMMUNICATE </strong> We believe in <strong> CLEANLINESS </strong> and hygiene, but also clean minds that hold kindness and positive for ourselves. We believe in <strong> CARE </strong> for other, but it all starts with the care we had given to ourselves first.</p>
+                        <p> We believe the customer is always right, but you have to tell us what you are right about.
+                            <strong> COMMUNICATE </strong> We believe in <strong> CLEANLINESS </strong> and hygiene, but
+                            also clean minds that hold kindness and positive for ourselves. We believe in <strong> CARE
+                            </strong> for other, but it all starts with the care we had given to ourselves first.</p>
                         <a href="#login" class="main-button-slider">Discover More</a>
                     </div>
                 </div>
@@ -101,19 +104,19 @@
         <div class="content">
             <div class="container">
                 <div class="row">
-                    
+
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="count-item decoration-top">
                             <strong>63</strong>
                             <span>Happy Clients</span>
                         </div>
                     </div>
-                                        
+
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Counter Parallax End ***** -->   
+    <!-- ***** Counter Parallax End ***** -->
 
     <!-- ***** Blog Start ***** -->
     <section class="section" id="blog">
@@ -127,7 +130,9 @@
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="center-text">
-                        <p>DIVINE is where beauty, culture, and wellness meet. We Believe that you deserve the healthiest ingredients to enhance your beauty as well as the best care to enhance your wellness.</p>
+                        <p>DIVINE is where beauty, culture, and wellness meet. We Believe that you deserve the
+                            healthiest ingredients to enhance your beauty as well as the best care to enhance your
+                            wellness.</p>
                     </div>
                 </div>
             </div>
@@ -144,7 +149,8 @@
                                 <a href="#">Little Princess Manicure or Pedicure (10 and under)</a>
                             </h3>
                             <div class="text">
-                               A manicure (or pedicure) created especially for little ones. Includes a hand(or foot) soak, nail trimming, shaping, light massage and your choice of chemical free polish.
+                                A manicure (or pedicure) created especially for little ones. Includes a hand(or foot)
+                                soak, nail trimming, shaping, light massage and your choice of chemical free polish.
                             </div>
                             <a href="forher.php" class="main-button">For Her</a>
                         </div>
@@ -160,7 +166,9 @@
                                 <a href="#">MAN-icure</a>
                             </h3>
                             <div class="text">
-                                For immaculate hands that make a good impression, present a more professional image with well-manicured nails and hands that are a pleasure to shake. This classic manicure delivers complete hand, nails and cuticle maintenance.
+                                For immaculate hands that make a good impression, present a more professional image with
+                                well-manicured nails and hands that are a pleasure to shake. This classic manicure
+                                delivers complete hand, nails and cuticle maintenance.
                             </div>
                             <a href="forhim.php" class="main-button">For Him</a>
                         </div>
@@ -174,108 +182,91 @@
     <!-- ***** login  Start ***** -->
     <section class="section colored" id="login">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
             <div class="row">
-                <div class="col-lg-12">
+                
+                <div class="col-lg-6">
+                    <!-- ***** Section Title Start ***** -->
                     <div class="center-heading">
                         <h2 class="section-title">Login</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="center-text">
                         <p>Login to access the client system</p>
+                        <br>
                     </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
-
-                <!-- ***** login Form Start ***** -->
-                <div class="row justify-content-md-center">
-                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <!-- ***** Section Title End ***** -->
+                    <!-- ***** login Form Start ***** -->
                     <div class="contact-form">
                         <form id="contact" action="" method="get">
-                          
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="email" class="form-control" id="emaill" placeholder="E-Mail Address" >
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="passw" type="password" class="form-control" id="passwl" placeholder="Password" >
-                              </fieldset>
+
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <input name="email" type="email" class="form-control" id="emaill"
+                                        placeholder="E-Mail Address">
+                                </fieldset>
                             </div>
                             <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="validate_login" class="main-button">Login</button>
-                              </fieldset>
+                                <fieldset>
+                                    <input name="passw" type="password" class="form-control" id="passwl"
+                                        placeholder="Password">
+                                </fieldset>
                             </div>
-                          </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <button type="submit" id="validate_login" class="main-button">Login</button>
+                                </fieldset>
+                            </div>
                         </form>
                     </div>
+                    <!-- ***** login Form End ***** -->
                 </div>
-        </div>
-                <!-- ***** login Form End ***** -->
-            </div>
-        </div>
-    </section>
-    <!-- ***** login End ***** -->
-    
-    <!-- ***** register Start ***** -->
-    <section class="section colored" id="register">
-        <div class="container">
-            <!-- ***** Section Title Start ***** -->
-            <div class="row">
-                <div class="col-lg-12">
+
+                <div class="col-lg-6">
+                    <!-- ***** Section Title Start ***** -->
                     <div class="center-heading">
                         <h2 class="section-title">Register</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="center-text">
                         <p>Register to access the client system</p>
+                        <br>
                     </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
-
-            <div class="row justify-content-md-center">
-                
-                <!-- ***** register Form Start ***** -->
-                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <!-- ***** Section Title End ***** -->
+                    <!-- ***** register Form Start ***** -->
                     <div class="contact-form">
                         <form id="contact" action="" method="get">
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="tetx" class="form-control" id="name" placeholder="Name" >
-                              </fieldset>
-                            </div>
-                           
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="E-Mail Address" >
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="passw" type="password" class="form-control" id="passw" placeholder="Password">
-                              </fieldset>
-                            </div>
-                            
                             <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="validate_register" class="main-button">Register</button>
-                              </fieldset>
+                                <fieldset>
+                                    <input name="name" type="tetx" class="form-control" id="name" placeholder="Name">
+                                </fieldset>
                             </div>
-                          </div>
+
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="E-Mail Address">
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <input name="passw" type="password" class="form-control" id="passw"
+                                        placeholder="Password">
+                                </fieldset>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <button type="submit" id="validate_register" class="main-button">Register</button>
+                                </fieldset>
+                            </div>
                         </form>
                     </div>
+                    <!-- ***** register Form End ***** -->
+
                 </div>
-                <!-- ***** register Form End ***** -->
             </div>
+
+            
+        </div>
+        </div>
         </div>
     </section>
-    <!-- ***** register End ***** -->
+    <!-- ***** login & Register End ***** -->
+
     <!-- ***** Footer Start ***** -->
     <footer>
         <div class="container">
@@ -284,7 +275,8 @@
                     <ul class="social">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/divine_beauty_forever/?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/divine_beauty_forever/?utm_medium=copy_link"><i
+                                    class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -295,7 +287,7 @@
             </div>
         </div>
     </footer>
-    
+
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -307,13 +299,14 @@
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    
+    <script src="assets/js/imgfix.min.js"></script>
+
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/login.js"></script>
     <script src="assets/js/register.js"></script>
-      
 
-  </body>
+
+</body>
+
 </html>

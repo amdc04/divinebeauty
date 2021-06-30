@@ -6,13 +6,13 @@
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
-	$datos = true;
+	$data = true;
 	$user = $_SESSION['user'];
 
-	mysqli_query($connection,"INSERT INTO  (name,email,phone,message,subject) VALUES('".$name."','".$email."','".$phone."','".$message."','".$subject."')");
-	$mensaj = "name = "+$name+" email = "+$email+" subject = "+$subject+" phone = "+$phone+" message = "+$message;
+	mysqli_query($connection,"INSERT INTO contactus (name,email,phone,message,subject) VALUES('".$name."','".$email."','".$phone."','".$message."','".$subject."')");
+	$message = "name = "+$name+" email = "+$email+" phone = "+$phone+" message = "+$message+" subject = "+$subject;
 
-	if(mail($email,"New query",$mensaj))
+	if(mail($email,"New query",$message))
 		echo"<script type='text/javascript'>
 	           alert('Message sent');
 	        </script>";
@@ -20,4 +20,6 @@
 		echo"<script type='text/javascript'>
 	           alert('Message not sent');
 	        </script>";
-	echo json_encode($datos);
+	echo json_encode($data);
+	
+	?>
