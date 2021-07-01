@@ -208,61 +208,7 @@
     </section>
     <!-- ***** Home Parallax End ***** -->
 
-    <!-- ***** Testimonials Start ***** -->
-    <section class="section" id="testimonials">
-        <div class="container">
-            <!-- ***** Section Title Start ***** -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center-heading">
-                        <h2 class="section-title">Queries made</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="center-text">
-                        <p>List of inquiries made.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
-
-            <div class="row">
-                <?php  
-                  $ca = mysqli_query($connection,"SELECT * FROM contactus WHERE email = '".$dataUser['email']."' ");
-                  $nacc = mysqli_num_rows($ca);
-
-                  if ($nacc > 0) {
-                   
-                    while ( $date = mysqli_fetch_row($ca)){
-                      
-                      echo "<div class='col-lg-4 col-md-6 col-sm-12'>
-                    <div class='team-item'>
-                        <div class='team-content'>
-                            <i><img src='assets/images/testimonial-icon.png' alt=''></i>
-                            <p>".$date[4]."</p>
-                            <div class='user-image'>
-                                <img src='http://placehold.it/60x60' alt=''>
-                            </div>
-                            <div class='team-info'>
-                                <h3 class='user-name'>To: </h3>
-                                <span>Administrator</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>";
-                    }
-                  }else{
-                    echo "<div class='full heading_s1' >
-                     <h2 style='margin-left: 25%; ''> no <h2> Queries </h2></h2>
-                  </div>";
-                  }
-
-               ?>
-
-            </div>
-        </div>
-    </section>
-    <!-- ***** Testimonials End ***** -->
+    
 
     <!-- ***** Footer Start ***** -->
     <footer>

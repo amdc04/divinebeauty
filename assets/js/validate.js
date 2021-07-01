@@ -11,35 +11,35 @@ $(function(){
 			var regex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 			t = "";
 			var tja = "";
-			var validar = 0;
+			var validation = 0;
 			var tja1 = false;
 			var tja2 = false;
 			var tja8 = "";
 
 			if ( form_subject === '' ) {
 			    $('#form_subject').css('background-color', 'red');
-			        validar = validar+1;
+			        validation = validation+1;
 			}else{
 				$('#form_subject').css('background-color', '#eee');
 				
 			}
 			if (form_name === '') {
 			    $('#form_name').css('background-color', 'red');
-			        validar = validar+1;
+			        validation = validation+1;
 			}else{
 				$('#form_name').css('background-color', '#eee');
 				
 			}
 			if (form_message === '') {
 			    $('#form_message').css('background-color', 'red');
-			        validar = validar+1;
+			        validation = validation+1;
 			}else{
 				$('#form_message').css('background-color', '#eee');
 				
 			}
 			if (form_email === '' || (!regex.test(form_email))) {
 			        $('#form_email').css('background-color', 'red');
-			        validar = validar+1;
+			        validation = validation+1;
 			}else{
 				$('#form_email').css('background-color', '#eee');
 				
@@ -47,13 +47,13 @@ $(function(){
 
 			if (form_phone === '') {
 			        $('#form_phone').css('background-color', 'red');
-			        validar = validar+1;
+			        validation = validation+1;
 			}else{
 				$('#form_phone').css('background-color', '#eee');
 				
 			}
 
-			if (validar === 0) {
+			if (validation === 0) {
 				$("#preloader, .preloader").fadeIn();
 
 				var postValue =  `
